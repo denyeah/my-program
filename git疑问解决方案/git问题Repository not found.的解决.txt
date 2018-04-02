@@ -1,0 +1,13 @@
+git问题ERROR: Repository not found.的解决
+
+git有时候会报这样的问题
+
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+ Please make sure you have the correct access rights
+ and the repository exists.
+
+解决方案是
+
+git remote set-url origin git@github.com:xxxxxx/xxxxxx.git
