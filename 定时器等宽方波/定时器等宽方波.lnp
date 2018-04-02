@@ -1,0 +1,4 @@
+"STARTUP.obj",
+"main.obj" 
+TO "定时器等宽方波" 
+RAMSIZE(256) 
