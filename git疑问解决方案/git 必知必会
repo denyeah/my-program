@@ -15,3 +15,11 @@ git pull
 git revert <commit_id>
 
 git diff 是工作区和 中间区比较，git diff --cached是中间区和仓库比较。
+
+
+丢弃工作区的修改
+git checkout --filename
+暂存区的修改撤销
+git reset HEAD filename
+提交区退回
+git reset HEAD^
