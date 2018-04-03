@@ -1,5 +1,17 @@
-版本回退
-git log     #查看commit
-git log --pretty=oneline  #简明方式查看commit
+版本回退查看但不提 交
+git log     #查看commit历史记录
+git log --pretty=oneline  #简明方式查看commit历史记录
+git log --graph --pretty=format:'%h -%d %s (%cr)' --abbrev-commit --reflog
+担交记录回退一步
+git reset --hard HEAD^		#HEAD代表当前提交位置，HEAD^代表回退一步
+git reset --hard 3628164		#数字代表提交记录的特征值commit_id
+git reset --hard HEAD~1
+找到以前提交记录的特征值commit_id
+git reflog
+查看以前版本后退回当前版本
+git pull
 
+版本回退并提交形成提交记录，可以push,
+git revert <commit_id>
 
+git diff 是工作区和 中间区比较，git diff --cached是中间区和仓库比较。
