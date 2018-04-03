@@ -1,0 +1,5 @@
+版本回退
+git log     #查看commit
+git log --pretty=oneline  #简明方式查看commit
+
+
