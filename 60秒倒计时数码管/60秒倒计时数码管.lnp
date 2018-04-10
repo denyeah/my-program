@@ -1,0 +1,4 @@
+"STARTUP.obj",
+"main.obj" 
+TO "60秒倒计时数码管" 
+RAMSIZE(256) 

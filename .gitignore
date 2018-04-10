@@ -1,3 +1,10 @@
-*.LST
-*.OBJ
-*.pdsbak
+/*
+!*.pdsprj
+!.gitignore
+!*.M51
+!*.a51
+!*.uvproj
+!*.hex
+!*.A51
+!/单片机相关资料/
+!/git疑问解决方案/
